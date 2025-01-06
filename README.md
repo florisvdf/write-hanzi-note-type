@@ -1,8 +1,8 @@
 # write-hanzi-note-type
 
-This repository contains a single card deck and the main components of the note type for practicing writing hanzi that relies on the [hanzi-writer](!https://github.com/chanind/hanzi-writer) library. I created this for myself to be used alongside a sentence mining deck. The purpose of this repository is therefore to provide users with a very minimal note type that they can use to add their own cards of hanzi they wish to practice.
+This repository contains a single card deck and the main components of the note type for practicing writing hanzi that relies on the [hanzi-writer](https://github.com/chanind/hanzi-writer) library. I created this for myself to be used alongside a sentence mining deck. The purpose of this repository is therefore to provide users with a very minimal note type that they can use to add their own cards of hanzi they wish to practice.
 
-The current version is a very quick and dirty implementation, as I virtually have no knowledge of html, css or javascript. I stitched together bits and pieces of the [anki-xiehanzi](!https://github.com/krmanik/Anki-xiehanzi) code with the help of ChatGPT to arrive at the current version of the deck. If you are looking for a premade deck with many more fleshed out features, I highly recommend checking out anki-xiehanzi. 
+The current version is a very quick and dirty implementation, as I virtually have no knowledge of html, css or javascript. I stitched together bits and pieces of the [anki-xiehanzi](https://github.com/krmanik/Anki-xiehanzi) code with the help of ChatGPT to arrive at the current version of the deck. If you are looking for a premade deck with many more fleshed out features, I highly recommend checking out anki-xiehanzi. 
 
 
 # Features
