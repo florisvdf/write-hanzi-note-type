@@ -1,0 +1,18 @@
+.card {
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+@font-face {
+  font-family: arphic;
+  src: url("_AR PL KaitiM GB.ttf");
+}
+
+.fontstyle {
+  font-family:arphic;
+	font-size: 150px;
+}
+
