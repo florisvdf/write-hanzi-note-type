@@ -15,7 +15,6 @@ The current version is a very quick and dirty implementation, as I virtually hav
 
 
 # Missing features/issues
-- Card flips when character container is tapped shortly on mobile
 - Character container alignment and sizing
 	- The character container is not large enough
 	- The character container changes location after the first character when the card contains more than one character (center to top left)

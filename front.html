@@ -129,6 +129,23 @@
         writers.push(writer);
     }
 
+
+    function preventCardFlip(containerId) {
+        const container = document.getElementById(containerId);
+
+        // Attach event listeners to intercept tap/click events
+        ['touchstart', 'click'].forEach(eventType => {
+            container.addEventListener(eventType, function (event) {
+                event.stopPropagation(); // Stop event from bubbling up
+            });
+        });
+    }
+
+    // Apply the function to all character containers
+    for (let i = 0; i < characters.length; i++) {
+        preventCardFlip('character-target-' + (i + 1));
+    }
+
     function handleButtonClick(index) {
         var writer = writers[index];
         var currentState = states[index];
