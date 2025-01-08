@@ -13,8 +13,9 @@ The current version is a very quick and dirty implementation, as I virtually hav
 - An image field for adding images of the source of the mined character to the back of the card
 - A border around the character container indicating the status of the character (red: character not loader, green: character loaded, blue: problems importing the hanzi-writer library).
 
-
+## Front
 ![Front](https://raw.githubusercontent.com/florisvdf/write-hanzi-note-type/main/assets/front.mov)
+## Back
 ![Back](https://raw.githubusercontent.com/florisvdf/write-hanzi-note-type/main/assets/back.png)
 
 
