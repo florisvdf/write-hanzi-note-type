@@ -20,7 +20,6 @@ The current version is a very quick and dirty implementation, as I virtually hav
 	- The character container is not large enough
 	- The character container changes location after the first character when the card contains more than one character (center to top left)
 	- The character container does not fit the screen dynamically when used on mobile (anki mobile, ankidroid)
-- No support for audio 
 - Characters are fetched online, therefore the user needs to be connected to the internet in order to use the deck
 
 Contributions to address these issues are very much appreciated! Just send a pull request with a short description of the changes.
