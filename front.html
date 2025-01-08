@@ -56,28 +56,28 @@
 </style>
 
 <div class="container-wrapper" id="character-container-1">
+    <button class="toggle-button" onclick="handleButtonClick(0)">Toggle Character</button>
     <div class="text-display">{{pinyin}}</div>
     <div id="character-target-1" class="character-container"></div>
     <div class="text-display">{{english}}</div>
-    <button class="toggle-button" onclick="handleButtonClick(0)">Toggle Character</button>
 </div>
 <div class="container-wrapper" id="character-container-2" style="display: none;">
+    <button class="toggle-button" onclick="handleButtonClick(1)">Toggle Character</button>
     <div class="text-display">{{pinyin}}</div>
     <div id="character-target-2" class="character-container"></div>
     <div class="text-display">{{english}}</div>
-    <button class="toggle-button" onclick="handleButtonClick(1)">Toggle Character</button>
 </div>
 <div class="container-wrapper" id="character-container-3" style="display: none;">
+    <button class="toggle-button" onclick="handleButtonClick(2)">Toggle Character</button>
     <div class="text-display">{{pinyin}}</div>
     <div id="character-target-3" class="character-container"></div>
     <div class="text-display">{{english}}</div>
-    <button class="toggle-button" onclick="handleButtonClick(2)">Toggle Character</button>
 </div>
 <div class="container-wrapper" id="character-container-4" style="display: none;">
+    <button class="toggle-button" onclick="handleButtonClick(3)">Toggle Character</button>
     <div class="text-display">{{pinyin}}</div>
     <div id="character-target-4" class="character-container"></div>
     <div class="text-display">{{english}}</div>
-    <button class="toggle-button" onclick="handleButtonClick(3)">Toggle Character</button>
 </div>
 
 <div id="hanzi-container"></div>
@@ -200,4 +200,3 @@
     // Start the chain with the first character
     chainAnimations(0);
 </script>
-
