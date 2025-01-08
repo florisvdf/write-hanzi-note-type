@@ -14,7 +14,7 @@ The current version is a very quick and dirty implementation, as I virtually hav
 - A border around the character container indicating the status of the character (red: character not loader, green: character loaded, blue: problems importing the hanzi-writer library).
 
 ## Front
-![Front](https://raw.githubusercontent.com/florisvdf/write-hanzi-note-type/main/assets/front.mov)
+![Front](https://raw.githubusercontent.com/florisvdf/write-hanzi-note-type/main/assets/front.mp4)
 ## Back
 ![Back](https://raw.githubusercontent.com/florisvdf/write-hanzi-note-type/main/assets/back.png)
 
